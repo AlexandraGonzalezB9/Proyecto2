@@ -85,7 +85,7 @@ class MyGraphCanvas(FigureCanvas):
         
     def graficar_welch(self,f,Pxx):
         self.axes.clear()
-        self.axes.plot(f[(f >= 0.000004) & (f <= 0.004)],Pxx[(f >= 0.000004) & (f <= 0.004)])
+        self.axes.plot(f[(f >= 0.0000004) & (f <= 0.004)],Pxx[(f >= 0.0000004) & (f <= 0.004)])
         self.axes.figure.canvas.draw()
 
         
