@@ -35,6 +35,6 @@ class Coordinador(object):
     def calcular_welch(self,canal,wch):
         return self.__mi_biosenal.calcular_welch(canal,wch)
     
-    
+o=0    
 p=Principal()
 p.main()
